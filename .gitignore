@@ -1,0 +1,46 @@
+﻿# .NET Core
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# Logs
+*.log
+
+# Docker
+**/docker-compose.override.yml
+**/docker-compose.debug.yml
+**/*.env
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Elasticsearch and Kibana volumes (if mounted locally)
+esdata/
+kibanadata/
+
+# Optional: if you use Rider or JetBrains IDEs
+.idea/
+
+# NuGet packages
+*.nupkg
+packages/
+
+# Build results
+*.dll
+*.exe
+*.app
+*.pdb
+*.cache
+
+# Others
+*.tgz
+*.gz
+*.zip
